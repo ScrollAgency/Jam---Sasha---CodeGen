@@ -41,10 +41,71 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
+        },
+        {
+          "id": "KcEy24vPnxpH",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "sjWnnbMzuiwuaxePiype9j",
+          "renderModuleFilePath": "plasmic/jam_sasha_code_gen/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/jam_sasha_code_gen/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
-      "icons": [],
-      "images": [],
+      "icons": [
+        {
+          "id": "UVG3WJ0yfVMS",
+          "name": "PictogramIcon",
+          "moduleFilePath": "plasmic/jam_sasha_code_gen/icons/PlasmicIcon__Pictogram.tsx"
+        },
+        {
+          "id": "CHIo0d3NLWPk",
+          "name": "MailIcon",
+          "moduleFilePath": "plasmic/jam_sasha_code_gen/icons/PlasmicIcon__Mail.tsx"
+        },
+        {
+          "id": "NV9UZVDwN9JB",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/jam_sasha_code_gen/icons/PlasmicIcon__ChevronDown.tsx"
+        },
+        {
+          "id": "DJmZ99xY5PIZ",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/jam_sasha_code_gen/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "E5nZiKxIPfhn",
+          "name": "DividerLineIcon",
+          "moduleFilePath": "plasmic/jam_sasha_code_gen/icons/PlasmicIcon__DividerLine.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "ib9iEJj1L6iW",
+          "name": "Image wrapper",
+          "filePath": "../public/plasmic/jam_sasha_code_gen/images/imageWrapper.jpg"
+        },
+        {
+          "id": "DKKgKvMf9YMF",
+          "name": "Icon/Flag",
+          "filePath": "../public/plasmic/jam_sasha_code_gen/images/iconFlag.svg"
+        },
+        {
+          "id": "Evr98l9mgcYb",
+          "name": "Icon/Socials/Google",
+          "filePath": "../public/plasmic/jam_sasha_code_gen/images/iconSocialsGoogle.svg"
+        },
+        {
+          "id": "8T1AvyBejYen",
+          "name": "Icon/Socials/Apple",
+          "filePath": "../public/plasmic/jam_sasha_code_gen/images/iconSocialsApple.svg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/jam_sasha_code_gen/PlasmicGlobalContextsProvider.tsx",
       "splitsProviderFilePath": "",

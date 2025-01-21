@@ -67,6 +67,8 @@ import plasmic_library_tailwind_3_4_number_tokens_css from "../library_tailwind_
 import projectcss from "./plasmic.module.css"; // plasmic-import: sjWnnbMzuiwuaxePiype9j/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: HYAaVwB-Rw04/css
 
+import PictogramIcon from "./icons/PlasmicIcon__Pictogram"; // plasmic-import: UVG3WJ0yfVMS/icon
+
 createPlasmicElementProxy;
 
 export type PlasmicHomepage__VariantMembers = {};
@@ -80,9 +82,17 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
-  section?: Flex__<"section">;
-  h1?: Flex__<"h1">;
-  text?: Flex__<"div">;
+  signUp?: Flex__<"div">;
+  imageWrapper?: Flex__<"div">;
+  logoWrapper?: Flex__<"div">;
+  svg?: Flex__<"svg">;
+  baseline?: Flex__<"div">;
+  frame?: Flex__<"div">;
+  frame2?: Flex__<"div">;
+  frame3?: Flex__<"div">;
+  formWrapper?: Flex__<"div">;
+  title?: Flex__<"div">;
+  heading?: Flex__<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -153,52 +163,117 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <section
-            data-plasmic-name={"section"}
-            data-plasmic-override={overrides.section}
-            className={classNames(projectcss.all, sty.section)}
+          <div
+            data-plasmic-name={"signUp"}
+            data-plasmic-override={overrides.signUp}
+            className={classNames(projectcss.all, sty.signUp)}
           >
-            <h1
-              data-plasmic-name={"h1"}
-              data-plasmic-override={overrides.h1}
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1
-              )}
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"imageWrapper"}
+              data-plasmic-override={overrides.imageWrapper}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.imageWrapper)}
             >
-              {"v cxvcx"}
-            </h1>
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>
-                  {
-                    "If you haven't already done so, go back and learn the basics by going through the Plasmic Levels tutorial.\n\nIt's always easier to start from examples! Add a new page using a template\u2014do this from the list of pages in the top toolbar.\n\nOr press the big blue + button to start inserting items into this page.\n\nIntegrate this project into your codebase\u2014press the "
-                  }
-                </React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
+              <Stack__
+                as={"div"}
+                data-plasmic-name={"logoWrapper"}
+                data-plasmic-override={overrides.logoWrapper}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.logoWrapper)}
+              >
+                <PictogramIcon
+                  data-plasmic-name={"svg"}
+                  data-plasmic-override={overrides.svg}
+                  className={classNames(projectcss.all, sty.svg)}
+                  role={"img"}
+                />
+
+                <div
+                  data-plasmic-name={"baseline"}
+                  data-plasmic-override={overrides.baseline}
+                  className={classNames(projectcss.all, sty.baseline)}
                 >
-                  {"Code"}
-                </span>
-                <React.Fragment>
-                  {
-                    " button in the top right and follow the quickstart instructions.\n\nJoin our Slack community (icon in bottom left) for help any time."
-                  }
-                </React.Fragment>
-              </React.Fragment>
-            </div>
-          </section>
+                  <Stack__
+                    as={"div"}
+                    data-plasmic-name={"frame"}
+                    data-plasmic-override={overrides.frame}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.frame)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qp0Nc
+                      )}
+                    >
+                      {"JOB"}
+                    </div>
+                  </Stack__>
+                  <Stack__
+                    as={"div"}
+                    data-plasmic-name={"frame2"}
+                    data-plasmic-override={overrides.frame2}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.frame2)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__geNio
+                      )}
+                    >
+                      {"AROUND"}
+                    </div>
+                  </Stack__>
+                  <Stack__
+                    as={"div"}
+                    data-plasmic-name={"frame3"}
+                    data-plasmic-override={overrides.frame3}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.frame3)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__iv77
+                      )}
+                    >
+                      {"ME"}
+                    </div>
+                  </Stack__>
+                </div>
+              </Stack__>
+            </Stack__>
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"formWrapper"}
+              data-plasmic-override={overrides.formWrapper}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.formWrapper)}
+            >
+              <div
+                data-plasmic-name={"title"}
+                data-plasmic-override={overrides.title}
+                className={classNames(projectcss.all, sty.title)}
+              >
+                <div
+                  data-plasmic-name={"heading"}
+                  data-plasmic-override={overrides.heading}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.heading
+                  )}
+                >
+                  {"xdckjvbdjdsb<jwvlkxdbv<w;<x"}
+                </div>
+              </div>
+            </Stack__>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -206,19 +281,68 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "h1", "text"],
-  section: ["section", "h1", "text"],
-  h1: ["h1"],
-  text: ["text"]
+  root: [
+    "root",
+    "signUp",
+    "imageWrapper",
+    "logoWrapper",
+    "svg",
+    "baseline",
+    "frame",
+    "frame2",
+    "frame3",
+    "formWrapper",
+    "title",
+    "heading"
+  ],
+  signUp: [
+    "signUp",
+    "imageWrapper",
+    "logoWrapper",
+    "svg",
+    "baseline",
+    "frame",
+    "frame2",
+    "frame3",
+    "formWrapper",
+    "title",
+    "heading"
+  ],
+  imageWrapper: [
+    "imageWrapper",
+    "logoWrapper",
+    "svg",
+    "baseline",
+    "frame",
+    "frame2",
+    "frame3"
+  ],
+  logoWrapper: ["logoWrapper", "svg", "baseline", "frame", "frame2", "frame3"],
+  svg: ["svg"],
+  baseline: ["baseline", "frame", "frame2", "frame3"],
+  frame: ["frame"],
+  frame2: ["frame2"],
+  frame3: ["frame3"],
+  formWrapper: ["formWrapper", "title", "heading"],
+  title: ["title", "heading"],
+  heading: ["heading"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  section: "section";
-  h1: "h1";
-  text: "div";
+  signUp: "div";
+  imageWrapper: "div";
+  logoWrapper: "div";
+  svg: "svg";
+  baseline: "div";
+  frame: "div";
+  frame2: "div";
+  frame3: "div";
+  formWrapper: "div";
+  title: "div";
+  heading: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -281,9 +405,17 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    section: makeNodeComponent("section"),
-    h1: makeNodeComponent("h1"),
-    text: makeNodeComponent("text"),
+    signUp: makeNodeComponent("signUp"),
+    imageWrapper: makeNodeComponent("imageWrapper"),
+    logoWrapper: makeNodeComponent("logoWrapper"),
+    svg: makeNodeComponent("svg"),
+    baseline: makeNodeComponent("baseline"),
+    frame: makeNodeComponent("frame"),
+    frame2: makeNodeComponent("frame2"),
+    frame3: makeNodeComponent("frame3"),
+    formWrapper: makeNodeComponent("formWrapper"),
+    title: makeNodeComponent("title"),
+    heading: makeNodeComponent("heading"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
