@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "sjWnnbMzuiwuaxePiype9j",
+      "projectApiToken": "mkyq1VIKDoZw2LQ5c6cpTeCfP2GWiTqxXTtjg9S60Rm7TT81DsOlUUxoACOlIpYJUV3VE2xmISNPpy7Rw",
+      "projectName": "Jam - Sasha - CodeGen",
+      "version": "latest",
+      "cssFilePath": "plasmic/jam_sasha_code_gen/plasmic.module.css",
+      "components": [
+        {
+          "id": "HYAaVwB-Rw04",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "sjWnnbMzuiwuaxePiype9j",
+          "renderModuleFilePath": "plasmic/jam_sasha_code_gen/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/jam_sasha_code_gen/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ZcW-_-76jYxm",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Dg6TrIOuZIjB",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Sqd9IVVDsLHN",
+        "name": "Screen",
+        "projectId": "sjWnnbMzuiwuaxePiype9j",
+        "contextFilePath": "plasmic/jam_sasha_code_gen/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
